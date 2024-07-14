@@ -1,27 +1,35 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Egg Timer
 
-## Our Goal
+# Overview
 
-This module will be a mix of tutorials and challenges. Most importantly, we want you to get comfortable with looking up how to do something you've never done before. In certain places of this module, you’ll need to follow the 5 step process you learnt in the Xylophone module and use Google search, StackOverflow and Apple Documentation to make your code do what you want it to. But there are also other parts where we’ll take you step-by-step through new Swift programming concepts. 
+Welcome to the Egg Timer app project! This app helps you boil eggs to perfection based on your preferred doneness level. It's a practical introduction to Swift programming, focusing on timer management, UI updates with progress views, and using conditional statements for logic control.
 
-## What You'll Make
+# Features
 
-You’ll be building a beautiful egg timer app to boil your eggs to perfection depending on how you prefer your eggs. 
+Select your desired egg hardness (soft, medium, or hard).
+Start the countdown timer for the selected egg hardness.
+Visual progress with a progress view indicating the remaining time.
+Alert notification when the eggs are ready.
 
-## What you will learn
+# Learning Goals
 
-* Swift Collection types - Dictionaries
-* The Swift Timer API
-* Conditional statements - IF/ELSE
-* Conditional statements - Switch
-* Functions with outputs
-* How to use the ProgressView
+Swift Collections: Utilize dictionaries to store and retrieve egg boiling times based on hardness levels.
+Timer API: Implement countdown functionality using Swift’s Timer API.
+Conditional Statements: Use if-else and switch statements to manage different egg hardness options.
+Functions with Outputs: Define functions to calculate and return egg boiling times based on selected hardness.
+UI Development: Integrate progress views to display the remaining countdown time visually.
 
+# What I Learned
 
+Implemented timer functionality to countdown and update UI dynamically.
+Utilized Swift dictionaries to store and retrieve data efficiently.
+Applied conditional statements for logic branching based on user input.
+Enhanced understanding of progress views for visual feedback.
+Explored Swift's Timer API for time-based operations in iOS apps.
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+# Next Steps
 
-![End Banner](Documentation/readme-end-banner.png)
-
+Enhance the app with additional features such as customizing countdown alerts, adding sound effects, or implementing user preferences.
+Explore integrating Core Data or UserDefaults for persistent data storage of user preferences.
+Dive deeper into UIKit to enhance UI interactions and animations.
+Consider building upon this project by exploring advanced iOS development topics or integrating with external APIs.
